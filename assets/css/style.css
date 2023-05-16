@@ -119,6 +119,9 @@ h6,
 #main {
   margin-top: 80px;
 }
+.ship_chandler{
+  color: var(--bg-color);
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
