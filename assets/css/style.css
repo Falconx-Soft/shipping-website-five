@@ -158,24 +158,18 @@ h6,
   transition: 0.3s;
 }
 
-.navbar  i,
-.navbar :focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
-  line-height: 20;
-  /* margin-left: 5px; */
-  /* border: 2px solid #fff; */
-  
+  line-height: 0;
+  margin-left: 5px;
 }
 
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
-  /* border-bottom: 2px solid #fff; */
-}
-.navbar .active{
-  border-bottom: 2px solid #fff;
+  color: #a2cce3;
 }
 
 .navbar .dropdown ul {
@@ -232,6 +226,26 @@ h6,
   left: 100%;
   visibility: visible;
 }
+
+.navbar  i,
+.navbar :focus i {
+  font-size: 12px;
+  line-height: 20;
+  
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #fff;
+}
+.navbar .active{
+  border-bottom: 2px solid #fff;
+}
+
+
+
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
