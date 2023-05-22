@@ -1168,3 +1168,10 @@ section {
 #footer .credits a {
   color: #a2cce3;
 }
+
+/* Custom styling */
+
+.company-banner-images{
+  width: 100%;
+  margin-bottom: 20px;
+}
